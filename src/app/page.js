@@ -1,6 +1,5 @@
 "use client";
 import {useState} from "react";
-
 import About from "./components/About";
 import Footer from "./components/footer";
 import Experience  from "./components/Experience";
@@ -36,7 +35,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1sGBo7d5vP-s43fjN_Ko5zSZYAXmm6zjo/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/16GiIhZy6CE7q-yv2Er8kmhDYUXIlhIs0/view?usp=drive_link" target="_blank" rel="noopener noreferrer"
                 >
                   Resume
                 </a>
