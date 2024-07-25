@@ -5,7 +5,7 @@ import blog2 from "../assets/blog2.jpg";
 import mario from "../assets/mario.png"
 import foodies from "../assets/logo.png"
 import ToDo from "../assets/ToDo.png"
-import contactapp from "../assets/contactapp.png"
+import Contactapp from "../assets/contactapp.png"
 function PortFolio() {
   const cardItem = [
   
