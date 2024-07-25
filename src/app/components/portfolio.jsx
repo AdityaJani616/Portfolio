@@ -13,7 +13,7 @@ function PortFolio() {
       id: 1,
       logo: foodies,
       name: "Foodie's Paradise",
-      description: "An Amazing Web Application Developed in MERN",
+      description: " A MERN stack food ordering app with AI chatbot, authentication,Order Management, food gallery, and Stripe payments integrated for a complete experience.",
       reference:"https://github.com/AdityaJani616/Foodies_Paradise_MERN",
       referenceLive:"https://github.com/AdityaJani616/Foodies_Paradise_MERN"
     },
@@ -21,15 +21,15 @@ function PortFolio() {
       id: 2,
       logo: Contactapp,
       name: "Contact App",
-      description: "An Amazing game developed using HTML,CSS and JS",
-      reference:"https://github.com/AdityaJani616/Mario-s-Whack-a-Mole-Adventure",
-      referenceLive:"https://adityajani616.github.io/Mario-s-Whack-a-Mole-Adventure/"
+      description: " A responsive contact management app with real-time updates, form validation, and CRUD operations using React, Vite, Tailwind CSS, Material UI, and Firebase.",
+      reference:"https://github.com/AdityaJani616/Contact-App",
+      referenceLive:"https://adityajani616.github.io/Contact-App/"
     },
       {
       id: 3,
       logo: mario,
       name: "Mario's Whack-A-Mole  ",
-      description: "An Amazing game developed using HTML,CSS and JS",
+      description: " Enjoy a Mario-themed twist on the classic Whac-A-Mole game. Whack moles and piranha plants in a fast-paced 50-second challenge and beat your high score!",
       reference:"https://github.com/AdityaJani616/Mario-s-Whack-a-Mole-Adventure",
       referenceLive:"https://adityajani616.github.io/Mario-s-Whack-a-Mole-Adventure/"
     },
@@ -37,7 +37,7 @@ function PortFolio() {
       id: 3,
       logo:ToDo ,
       name: "To Do List",
-      description: "A responsive TO DO LIST app with add/delete features, built with React and Vite",
+      description: "A responsive React.js app for managing tasks efficiently. Add, delete, and track your to-do items with a user-friendly interface and seamless performance!",
       reference:"https://github.com/AdityaJani616/ToDoList",
       referenceLive:"https://adityajani616.github.io/ToDoList/"
     },
