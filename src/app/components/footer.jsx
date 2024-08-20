@@ -6,6 +6,7 @@ import {
     AiFillGithub,
     AiFillMail,
   } from "react-icons/ai";
+  import { FaSquareXTwitter } from "react-icons/fa6";
 const footer = () => {
   return (
     <div>
@@ -19,14 +20,7 @@ const footer = () => {
 
         <div class="lg:flex lg:items-right  justify-end">
           <ul class="flex space-x-6 text-4xl">
-          <li>
-              <a href="javascript:void(0)">
-              <a href="https://github.com/AdityaJani616" target="_blank" rel="noopener noreferrer" className="  cursor-pointer hover:text-teal-500">
-        <AiFillTwitterCircle />
-      </a>
-     
-              </a>
-            </li>
+  
             <li>
               <a href="javascript:void(0)">
               <a href="https://github.com/AdityaJani616" target="_blank" rel="noopener noreferrer" className="  cursor-pointer hover:text-teal-500">
@@ -48,6 +42,14 @@ const footer = () => {
               <a href="mailto:adityajani616@gmail.com" target="_blank" className="cursor-pointer hover:text-teal-500">
         <AiFillMail />
       </a>             </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+              <a href="https://x.com/AdityaKish53733" target="_blank" rel="noopener noreferrer" className="  cursor-pointer hover:text-teal-500">
+        <FaSquareXTwitter />
+      </a>
+     
+              </a>
             </li>
           </ul>
         </div>
