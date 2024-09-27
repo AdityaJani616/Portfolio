@@ -127,13 +127,18 @@ const Experience = () => {
       src: css,
       title: "CSS",
       style: "shadow-blue-500",
-    },
-    {
+    },{
       id: 3,
       src: javascript,
-      title: "JavaScript",
+      title: (
+        <>
+          <span className="block md:hidden">JS</span> {/* Mobile view */}
+          <span className="hidden md:block">JavaScript</span> {/* Larger screens */}
+        </>
+      ),
       style: "shadow-yellow-500",
-    },
+    }
+,    
     {
       id: 4,
       src: reactImage,
