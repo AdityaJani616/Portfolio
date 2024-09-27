@@ -4,6 +4,7 @@ import About from "./components/About";
 import Footer from "./components/footer";
 import Experience from "./components/Experience";
 import PortFolio from "./components/portfolio.jsx";
+import Navbar from "./components/Navbar";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillTwitterCircle,
@@ -20,12 +21,13 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 dark:text-white select-none">
         <section className="lg:min-h-screen md:min-h-screen sm:py-1">
-          <nav className="py-10 mb-12 flex justify-between">
+          <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+          {/* <nav className="py-10 mb-12 flex justify-between">
             <a href="/" className="text-5xl font-signature ml-2">
               aditya
             </a>
             <ul className="flex items-center">
-              <a href="#portfolio" className="pr-5 text-xl">
+              <a  href="#portfolio" className="pr-5 text-xl">
                 Projects
               </a>
               <li>
@@ -45,7 +47,7 @@ export default function Home() {
                 </a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
 
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">

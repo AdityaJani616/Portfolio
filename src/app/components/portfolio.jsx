@@ -158,9 +158,10 @@ function PortFolio() {
 
   return (
     <div
-      name="portfolio"
+     name="portfolio"
+     id="portfolio"
       className="dark:bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
-    id="portfolio"
+ 
     >
       <div className="max-w-screen-lg mx-auto lg:py-16 p-4 flex flex-col justify-center w-full h-full dark:text-white">
         <div className="animate-fade-in-down">
