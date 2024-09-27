@@ -27,9 +27,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       <ul
         className={`${
           navOpen
-            ? "flex bg-teal-600 border-2 border-teal-700 h-[60vh] m-4"
+            ? "flex bg-teal-400 border-2  h-[60vh] m-4"
             : "hidden"
-        } md:flex items-center absolute md:static top-20 left-0 w-[90%] md:w-auto p-8 md:p-0 z-50 md:z-auto transition-all duration-300 ease-in-out md:flex-row flex-col justify-center`}
+        } md:flex items-center absolute md:static top-20 left-0 w-[80%] md:w-auto p-8 md:p-0 z-50 md:z-auto transition-all duration-300 ease-in-out md:flex-row flex-col justify-center`}
       >
         <li className="mb-8 md:mb-0 md:mr-5 text-xl">
           <a
