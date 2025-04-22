@@ -55,7 +55,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <li>
           <a
             className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 "
-            href="https://drive.google.com/file/d/1gEBCWOwe6HyuLoq2A76Ds6QyQT2F0Fvm/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_Wo_VhfzE7Q5YxeE9dB5hr7PQF0Pyt97/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             
